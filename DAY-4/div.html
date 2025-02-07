@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            text-align: center;
+            height: 500px;
+            width: 400px;
+            margin: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: cadetblue;" onmouseover="one()">Module-1</div><br>
+    <div style="background-color: cornflowerblue;"onmouseover="two()">Module-2</div><br>
+    <div style="background-color: crimson;" onmouseover="three()">Module-3</div>
+    <script>
+        function one(){
+            window.alert("Module-1 Focused!")
+        }
+        function two(){
+            window.alert("Module-2 Focused!")
+        }
+        function three(){
+            window.alert("Module-3 Focused!")
+        }
+    </script>
+</body>
+</html>

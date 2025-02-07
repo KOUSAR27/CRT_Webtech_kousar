@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            background-color: cadetblue;
+        }
+        h2{
+            background-color: cadetblue;
+        }
+        h3{
+            background-color: cadetblue;
+        }
+        h4{
+            background-color: cadetblue;
+        }
+        h5{
+            background-color: cadetblue;
+        }
+        h6{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hyper text Markup Language</h1>
+    <h2 class="Heading2">Hyper text Markup Language</h2>
+    <h3 id="a">Hyper text Markup Language</h3>
+    <h4>Hyper text Markup Language</h4>
+    <h5>Hyper text Markup Language</h5>
+    <h6>Hyper text Markup Language</h6>
+    <script>
+        var Res=document.getElementsByTagName("h1").innerHTML="extensible Markup Language <br>"
+        document.write(Res);
+        var One=document.getElementsByClassName('Heading2').innerHTML="extensible Markup Language <br>"
+        document.write(One);
+        var Two=document.getElementById('a').innerHTML="extensible Markup Language"
+        document.write(Two);
+    </script>
+</body>
+</html>
