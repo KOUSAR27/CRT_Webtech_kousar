@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Scorecard</title>
+    <style>
+        table,tr,th,td{
+            width: 500px;
+            height: 20px;
+            border: 1 white;
+            border-collapse: collapse;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(0.1, 0.1, 0, 0.1);
+            margin: 0 auto;
+        }
+        th{
+            background-color: green;
+            color:white;
+        }
+        tr:nth-of-type(even){
+            background-color:ghostwhite ;
+        
+        }
+        tr:nth-of-type(odd){
+            background-color:whitw;
+        }
+        tr:hover {
+            color: brown;
+          background-color: lightgray;
+          cursor: pointer;
+        }
+        h1{
+            color:brown;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Scorecard</h1>
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Scott</td>
+            <td>Math</td>
+            <td>90</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Adams</td>
+            <td>Science</td>
+            <td>85</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Miller</td>
+            <td>English</td>
+            <td>92</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>David</td>
+            <td>History</td>
+            <td>78</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>James</td>
+            <td>Physics</td>
+            <td>88</td>
+            <td>B</td>
+        </tr>
+    </table>
+</body>
+</html>

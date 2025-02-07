@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border:2px black solid; 
+            border-collapse:collapse;
+            padding: 15px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: cornflowerblue;
+        }
+       tr:nth-of-type(even){
+        background-color: pink;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       tr:nth-of-type(odd){
+        background-color: cornflowerblue;
+        font-family:Arial, Helvetica, sans-serif;
+       }
+       #one{
+        background-color: cadetblue;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+       }
+    </style>
+</head>
+<body>
+    <h1>Employee Table</h1>
+    <table>
+        <tr id="one">
+            <th>E_id</th>
+            <th>E_name</th>
+            <th>Designation</th>
+            <th>Salary</th>
+            <th>Mobile</th>
+            <th>Location</th>
+        </tr>
+        <tr id="two">
+            <td>01</td>
+            <td>John</td>
+            <td>Operator</td>
+            <td>20000</td>
+            <td>1234567890</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr id="three">
+            <td>02</td>
+            <td>Mary</td>
+            <td>Developer</td>
+            <td>50000</td>
+            <td>5645342378</td>
+            <td>Delhi</td>
+        </tr>
+        <tr id="four">
+            <td>03</td>
+            <td>July</td>
+            <td>Perator</td>
+            <td>30000</td>
+            <td>6485755537</td>
+            <td>Kolkata</td>
+        </tr>
+        <tr id="five">
+            <td>04</td>
+            <td>Alan</td>
+            <td>Developer</td>
+            <td>45000</td>
+            <td>8765984577</td>
+            <td>Vizag</td>
+        </tr>
+        <tr id="six">
+            <td>05</td>
+            <td>Alex</td>
+            <td>Operator</td>
+            <td>57000</td>
+            <td>7654438756</td>
+            <td>Anantapur</td>
+        </tr>
+    </table>
+</body>
+</html>
